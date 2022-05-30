@@ -21,6 +21,7 @@ Text data is a sentence used by the user in 'Reddit' and consists of up to 500 w
 
 You can access at [here](https://www.kaggle.com/datasets/zeyadkhalid/mbti-personality-types-500-dataset)
 
+We cannot upload the data file because the capacity of the data file is too large.
 
 ## Data Pre-processing
 
