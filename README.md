@@ -11,9 +11,9 @@ Therefore, we aim to classify mbti by combining the four models after conducting
 
 
 Team-project of 'Artificial Neural Networks and Deep Learning' lecture in 2022-1
+ 
 
-
-## Data
+## Data   
 
 We used the kaggle data.
 There are a total of 106067 rows of data, and each row consists of text data and labels.
