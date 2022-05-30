@@ -39,18 +39,45 @@ It can be checked in ```preprocessing.ipynb```.
 
 ## Model
 
+We finally used a GRU model that recorded higher performance than RNN.
+
 ### Setting
 
+aaa
+
 ### Hyper parameter
+vocab size : 3771<br>
+sequence length : 500<br>
+embedding size : 100<br>
+dropout : 0.2<br>
+num of layers : 1
 
 
-나중에 수정
+
 
 
 ## Result
 
-표 집어 넣기
 
+**Accuracy for each attribute**
+
+|     | precesion | recall | f1-score | accuracy |
+| --- | --------- | ------ | -------- | -------- |
+| E/I | 0.91      | 0.93   | 0.92     | 0.94     |
+| S/N | 0.97      | 0.89   | 0.93     | 0.98     |
+| T/F | 0.95      | 0.85   | 0.90     | 0.93     |
+| P/J | 0.93      | 0.93   | 0.93     | 0.93     |
+
+**Accuracy of combined model**
+
+Correct : 17,153
+
+Incorrect : 4,061
+
+Accuracy : 80.86%
+
+
+```GRU_EI , GRU_SN, GRU_TF, GRU_PJ, Model_Result``` of model folder contains a series of processes.
 
 ## Configuration
 
