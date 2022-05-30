@@ -41,10 +41,6 @@ It can be checked in ```preprocessing.ipynb```.
 
 We finally used a GRU model that recorded higher performance than RNN.
 
-### Setting
-
-aaa
-
 ### Hyper parameter
 vocab size : 3771<br>
 sequence length : 500<br>
@@ -70,12 +66,20 @@ num of layers : 1
 
 **Accuracy of combined model**
 
-Correct : 17,153
+- Correct : 17,153
+ 
+- Incorrect : 4,061
 
-Incorrect : 4,061
+- Accuracy : 80.86%
 
-Accuracy : 80.86%
+<br>
 
+Compare to other models
+
+- Accuracy of 16 multi classification case : 13.84%
+
+- Gjurković et al., 2020 : 45%
+-  Cerkez et al., 2021 : 67%
 
 ```GRU_EI , GRU_SN, GRU_TF, GRU_PJ, Model_Result``` of model folder contains a series of processes.
 
